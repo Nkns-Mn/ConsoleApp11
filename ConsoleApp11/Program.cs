@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp11
+namespace ConsoleApp11 //課題32-20ポリモーフィズム
 {
     public abstract class Employee
     {
