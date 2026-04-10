@@ -60,7 +60,7 @@ namespace ConsoleApp11 //課題32-20ポリモーフィズム
 
                 if (emp.Id == "E001")
                 {
-                    hours = 8.5;  // ←ここが変更ポイント
+                    hours = 8.5;  
                 }
                 else
                 {
@@ -69,7 +69,7 @@ namespace ConsoleApp11 //課題32-20ポリモーフィズム
 
                 double wage = emp.CalculateDailyWage(hours); //処理
 
-                Console.WriteLine($"社員ID: {emp.Id}, 名前: {emp.Name}, 給料: {wage}"); 
+                Console.WriteLine($"社員ID: {emp.Id}, 名前: {emp.Name}, 給料: {(int)wage}"); 
                 //社員ID: E001, 名前: 山田太郎, 給料: 10781
                 //社員ID: C001, 名前: 佐藤花子, 給料: 8000
                 //社員ID: E002, 名前: 鈴木一郎, 給料: 10000
